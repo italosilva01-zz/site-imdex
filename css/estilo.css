@@ -7,7 +7,7 @@ h2{
     padding-left: 5%;
 }
 .container{
-    width: 90%;
+    width:90%;
     margin: auto;
     display: grid;
     grid-template-columns: auto;
@@ -57,9 +57,7 @@ li{
 /*BODY*/
 section{
     margin-top: 5%;
-    border: 1px solid black;
     overflow: hidden;
-    height: 90%;
 }
 section h1{
     font-size: 40px;
@@ -123,56 +121,51 @@ section h1{
     color: black;
     transition: 1s;
 }
+#divBotao{
+    border-radius: 100%;
+}
 #botao:hover{
     background-color:#5a7684 ;
+    color: azure;
 }
 /*SOBRE*/
-#sobre h2{
-    
+#sobre{
+    background-color: #c5d1eb;
+    padding: 2%;
+    transition: 1s;
+    border: none;
 }
-#sobre div p+ div{
-    width: 40%;
-    position: relative;
-    right: 4%;
-    bottom: 2%;
-    margin-top: -10%;
-    float: right;
+#sobre:hover{
+    box-shadow: 2px 2px 5px grey;
 
+}
+#sobre h2 +div{
     display: grid;
-    grid-template-columns: auto;
-}
-
-#sobre div p+ div img{
-    margin:auto;
-    margin-top: 3%;
-    transition: 2s;
-    margin-bottom: 3%;
-
-}
-#sobre div p+ div img:hover{
-    transform: scale(1.2) ;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
-}
-
-#sobre div p+ div p{
-    float: none;
-    clear: none;
-    margin: auto;
+    grid-template-columns: 50% 50%;
+    margin-left: 5%;
     margin-top: 1%;
-    width: 70%;
 }
 #sobre p{
-    margin: 2% 0% auto 5%;
-    float: left;
-    clear: both;
+    width: auto;
 }
+
 /*CONTATOS*/
+#contato{
+    margin-top: 10%;
+    border: none;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 #formPI{
 
     border: 1px solid black;
+    background-color: #5a7684;
+    box-shadow: 2px 2px 2px;
 
-    width: 40%;
-    height: 100%;
+    padding: 2%;
+    width: 80%;
+    
 }
 #formPI form{
     margin-left: 5%;
@@ -184,6 +177,13 @@ section h1{
     margin-bottom: 2%;
 
     width: 50%;
+
+    border-radius: 10%;
+    box-shadow: 2px 2px 5px;
+}
+
+#formPi input:focus{
+    border:1px solid orangered ;
 }
 #formPI #nome{
     width: 50%;
@@ -195,3 +195,43 @@ section h1{
     float: right;
     right: 10%;
     margin-top: -7%;
+}
+#enviar{
+    padding: 2% 6%;
+
+    background-color:#92afd7 ;
+    border: none;
+
+    transition: 1s;
+
+}
+#enviar:hover{
+    color: white;
+    border: 1px solid black;
+}
+#mapa h2 + div{
+    padding: 0%;
+    border: 1px solid;
+    
+}
+#mapa h2 + iframe{
+    margin-top: 2%;
+    border: 9px solid blco;
+}
+/*RODAPE*/
+footer{
+    background-color: #1C1C1C;
+    bottom: -2%;
+    margin-top: 2%;
+    position: relative;
+    padding: 3%;
+    height: 100%;
+
+    color: white;
+}
+footer h1{
+    color: white;
+}
+footer .iconOr{
+   right: 0%; 
+}

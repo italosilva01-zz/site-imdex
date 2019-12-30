@@ -26,26 +26,29 @@
         <h1>O que fazemos ?</h1>
         
         <h2>Trabalhamos com o desenvolvimento web para :</h2>
-        
-            <div class="devices">
+        <div id="orga">
+            <div class="devices" >
             
                 <img src="img/icon/data.svg" alt="">
-                <p>Desktop</p>
+                
+                <p id="desktop">Desktop</p>
             </div>
             <div class="devices">
                 <img src="img/icon/smartphone.svg" alt="">
-                <p>Mobile</p>
+
+                <p id="mobile">Mobile</p>
             </div>
-            <div id="divBotao">
-                 <a  id="botao" href="#contato">Fale conosco</a>
-            </div>
+        </div>
+            <a  id="botao"  class="" href="#contato">Fale conosco</a>
+            
     </section>
     <!--Sobre-->
     <section id="sobre">
+        <h1>Sobre</h1>
         <h2>Sobre</h2>
         <div>
             <div>
-            <p>
+            <p id="resu-text">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla dolor facilis aliquid, numquam nihil natus! Consequuntur dolorem deleniti eum ipsum, laborum praesentium officiis quos quidem! Odio a quidem eum adipisci.
             </p>
             <p>
@@ -69,6 +72,7 @@
             <form action="">
                 <input type="text" name="nome" id="nome" placeholder="Nome" autofocus>
                 <input type="date" id="data">
+                <span id="tip">Data do dia</span>
                 <input type="email" name="email" placeholder="Email">
                 <input type="tel" data-mask="(00) 00000-0000" data-mask-selectonfocus="true" name="telefone" placeholder="Telefone">
                 <input type="text" name="assunto" placeholder="Assuntos">

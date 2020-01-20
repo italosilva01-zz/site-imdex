@@ -280,16 +280,6 @@ textarea {
 #data:hover span {
     visibility: visible;
 }
-
-
-
-
-
-
-
-
-
-
 /*INICIO MEDIA QUERY*/
 /*Responsivo para iphone 8/7/9*/
 @media (min-width:375px )and (max-width:500px)  {

@@ -1,5 +1,6 @@
 # IMDEX
-Site criado para a empresa junior IMDEX (não definitivo)
+
+Site created for a junior IMDEX company.Only HTML 5, CSS3 and Javascript were used
 
 ## imagens
 

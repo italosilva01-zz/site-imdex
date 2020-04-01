@@ -134,7 +134,7 @@ p {
 
     text-decoration: none;
     color: black;
-    transition: 1s;
+    transition: 0.2s;
 }
 
 #divBotao {
@@ -480,8 +480,24 @@ textarea {
     }
     .rodape p{
         width: 100%;
+        margin: none;
+        text-indent: none;
     }
     #creditos {
         font-size: 50%;
     }
+
+    
+}
+.rodape p{
+    font-size: 10px;
+}
+#creditos p {
+    width: 100%;
+    margin: 0;
+    text-indent: 0; 
+}
+.container .rodape:first-child{
+    display: flex;
+    background-color: #1C1C1C;
 }
